@@ -62,7 +62,7 @@ Ad array fields:
 
 Request example:
 ```
-https://advtapi20220428130255.azurewebsites.net/api/Ads/GetAds?PageNumber=0&DateSort=ASC&PriceSort=DESC
+/api/Ads/GetAds?PageNumber=0&DateSort=ASC&PriceSort=DESC
 ```
 
 Return example:
@@ -197,7 +197,7 @@ Will return:
 
 Request example:
 ```
-https://advtapi20220428130255.azurewebsites.net/api/Ads/PutAd?AdName=The quick, brown fox jumps over a lazy dog.&AdPrice=7.21&AdDescription=Testo&AdLinks=link1
+/api/Ads/PutAd?AdName=The quick, brown fox jumps over a lazy dog.&AdPrice=7.21&AdDescription=Testo&AdLinks=link1
 ```
 
 Will return:
@@ -211,7 +211,7 @@ Will return:
 
 Request example with error:
 ```
-https://advtapi20220428130255.azurewebsites.net/api/Ads/PutAd?AdName=The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab&AdPrice=7.35&AdDescription=Testo&AdLinks=link1
+/api/Ads/PutAd?AdName=The quick, brown fox jumps over a lazy dog. DJs flock by when MTV ax quiz prog. Junk MTV quiz graced by fox whelps. Bawds jog, flick quartz, vex nymphs. Waltz, bad nymph, for quick jigs vex! Fox nymphs grab&AdPrice=7.35&AdDescription=Testo&AdLinks=link1
 ```
 
 Will return:
