@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "apis1": {
+      "apiEndpoint": "https://advtapiapi.azure-api.net/AdApi",
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.ApiManagement/service/advtAPIapi/apis/advtAPI",
+      "type": "apis.azure"
+    },
+    "mssql1": {
+      "secretStore": null,
+      "resourceId": "/subscriptions/[parameters('subscriptionId')]/resourceGroups/[parameters('resourceGroupName')]/providers/Microsoft.Sql/servers/advtapidbserver/databases/advtAPI_db",
+      "type": "mssql.azure",
+      "connectionId": "ConnectionStrings:DefaultConnection"
+    }
+  }
+}
