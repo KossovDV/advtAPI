@@ -36,7 +36,7 @@ API have three methods:
 
 `per_page` - show max records in one page.
 
-`total_pages` - show all amount of pages.
+`total_pages` - show amount of pages.
 
 `AdsList` - array that contain ads.
 
@@ -179,13 +179,9 @@ Will return:
 
 **Return fields:**
 
-`code` - error code if core `0` secsessful.
+`code` - error code return `0` if secsessful.
 
 `AdId` - ad id in database.
-
-`AdLinks` - if parameter `fields` set to `false` return firs Ad photo link if parameter set to `true` return all ad photo links sepatated by **','**.
-
-`AdDescription` - if parameter `fields` set to `true` return ad description field.
 
 **Return Types**
 | Name             | Type |
