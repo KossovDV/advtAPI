@@ -12,6 +12,8 @@ API have three methods:
 
 ## GetAds
 
+Method: `GET`
+
 **GetAds** accepting three field:
 
 `PageNumber` - **zero based** counter that display current requested page (if PageNumber is more than total amount of pages request return empty list of ads).
@@ -96,6 +98,8 @@ Return example:
 ```
 ## GetAdById
 
+Method: `GET`
+
 **GetAdById** accepting two field:
 
 `AdId` - number that representing ad in database.
@@ -156,8 +160,8 @@ Will return:
     "AdLinks": "link1"
 }
 ```
-## GetAdById
-
+## PutAd
+Method: `POST`
 **PutAd** accepting four field:
 
 `AdName` - new ad name **(max lenth 200 chars)**.
