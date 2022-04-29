@@ -161,7 +161,9 @@ Will return:
 }
 ```
 ## PutAd
+
 Method: `POST`
+
 **PutAd** accepting four field:
 
 `AdName` - new ad name **(max lenth 200 chars)**.
